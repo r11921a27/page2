@@ -12,6 +12,8 @@
     "express-art-template": "^1.0.0"
   },
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "build": "yarn build",
+    "install": "yarn install" 
   }
 }
