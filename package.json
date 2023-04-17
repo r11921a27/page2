@@ -3,12 +3,6 @@
   "version": "1.0.0",
   "main": "app.js",
   "license" "ISC",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "yarn start",
-    "build": "yarn build",
-    "install:all": "yarn install --production=false && yarn"
-  },
   "keywords": [],
   "dependencies": {
     "art-template": "^4.12.2",
@@ -19,4 +13,10 @@
   },
   "devDependencies": {},
   "description": ""
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "yarn start",
+    "build": "yarn build",
+    "install:all": "yarn install --production=false && yarn"
+  }
 }
