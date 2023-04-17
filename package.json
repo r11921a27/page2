@@ -11,7 +11,8 @@
     "express": "^4.18.2",
     "express-art-template": "^1.0.0"
   },
-  "description": ""
+  "devDependencies": {},
+  "description": "",
   "scripts": {
     "start": "node app.js",
     "install": "yarn install --production=true",
