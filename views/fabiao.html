@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Message Board</title>
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+  <style>
+  .main {}
+
+  .main .head {
+    margin-bottom: 25px;
+  }
+  </style>
+</head>
+
+<body>
+  <div class="page-header container">
+    <h1><font color="black">Message Board</font></h1>
+  </div>
+  <div class="main container">
+    <div class="rot">
+      <div class="col-md-5">
+        <form action="/fabiao" method="post">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="name" required minlength="2">
+          </div>          
+          <div class="form-group">
+            <label for="exampleInputFile">Content</label>
+            <textarea class="form-control" name="content" rows="5"></textarea>
+          </div>
+          <button type="submit" class="btn btn-danger">Cancel</button>
+          <button type="submit" class="btn btn-success">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
