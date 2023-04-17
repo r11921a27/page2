@@ -16,6 +16,6 @@
   "scripts": {
     "start": "node app.js",
     "install": "yarn install --production=true",
-    "build": ""
+    "build": "exit 0"
   }
 }
