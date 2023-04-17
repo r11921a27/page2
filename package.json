@@ -2,13 +2,14 @@
   "name": "express-feedback",
   "version": "1.0.0",
   "main": "app.js",
+  "license" "ISC",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "yarn start",
+    "build": "yarn build",
+    "install:all": "yarn install --production=false && yarn"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "art-template": "^4.12.2",
     "body-parser": "^1.18.2",
