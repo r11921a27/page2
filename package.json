@@ -12,7 +12,7 @@
     "express-art-template": "^1.0.0"
   },
   "scripts": {
-    "install": "yarn install",
+    "install": "exit 0",
     "start": "node app.js",
     "build": "exit 0"
   }
