@@ -13,7 +13,7 @@
   },
   "scripts": {
     "start": "node app.js",
-    "build": "yarn build",
+    "build": "exit 0",
     "install": "exit 0"
   }
 }
