@@ -14,5 +14,6 @@
   "scripts": {
     "start": "node app.js",
     "build": "yarn build",
+    "install": "exit 0"
   }
 }
